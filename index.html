@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>DIC cafe</title>
+    <link href="CSS/normalize.css" rel="stylesheet">
+    <link href="CSS/sale.css" rel="stylesheet">
+    <link href="CSS/contact.css" rel="stylesheet">
+  </head>
+  <body>
+    <header id="top">
+      <nav class="header_nav">
+        <a href="sale.html"><img src="imagenes/sample_logo_k.png"></a>
+      <ul class="global_nav">
+        <a href="sale.html" class="global_nav_item">
+          <li>Inicio</li>
+        </a>
+        <a href="#" class="global_nav_item">
+          <li>Menu</li>
+        </a>
+        <a href="contact.html" class="global_nav_item">
+          <li>Contact</li>
+        </a>
+      </ul>
+    </nav>
+</header>
+<section class="section_inner">
+  <div class="section_title">
+  <h1>Contact</h1>
+  <p>Contactanos</p>
+  </div>
+  <form action="#" method="POST">
+  <table class="contact">
+    <tr class="contact_line">
+      <td class="contact_sing"><label for="name">nombre</label></td>
+      <td class="contact_input"><input type="text" name="name" id="name"></td>
+    </tr>
+    <tr class="contact_line">
+      <td class="contact_sing"><label for="phonenumber">Datos de contacto</label></td>
+      <td class="contact_input"><input type="tel" name="phonenumber" id="phonenumber"></td>
+    </tr>
+    <tr class="contact_line">
+      <td class="contact_sing"><label for="region">Region de residencia</label></td>
+      <td>
+        <select id="region">
+          <option value="0">Por favor, seleccione.</option>
+          <option value="1">Hokkaido</option>
+          <option value="2">Tohoku (las seis prefecturas más septentrionales de Honshu)</option>
+          <option value="3">Kantou (mitad oriental de Japón, incluido Tokio)</option>
+          <option value="4">centro</option>
+          <option value="5">Kinki (región alrededor de Osaka, Kioto y Nara)</option>
+          <option value="6">Chugoku y Shikoku</option>
+          <option value="7">Kyushu (la más meridional de las cuatro islas principales de Japón)</option>
+        </select>
+    </td>
+    </tr>
+    <tr class="contact_content">
+      <td class="contact_sing"><label for="content">Contenido</label></td>
+      <td class="contact_input"><textarea name="content" id="content"></textarea></td>
+    </tr>
+  </table>
+  <div class="contact_btn_area">
+  <button type="reset" class="contact_btn reset_btn">reiniciar</button>
+  <button type="submit" class="contact_btn submit_btn">Enviar</button>
+  </div>
+</form>
+</section>
+<footer>
+  <nav>
+    <ul>
+      <li><a href="sale.html">Inicio</a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="contact.html">Contacto</a></li>
+    <li><a href="index.html"><img src="imagenes/sample_logo_w.png" class="footer_logo"></a></li>
+    </ul>
+  </nav>
+  <div class="copyright">
+    <p class="footer_right">&copy;DIVIC Corp. All RIGHTS RESERVED.</P>
+  </div>
+</footer>
+  </body>
+</html>
